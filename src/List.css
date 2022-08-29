@@ -1,0 +1,15 @@
+ul,li{
+    list-style: none;
+}
+.titles-list{
+    width: 95vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap:10px;
+    justify-content: center;
+}
+.title{
+    background-color:azure;
+    padding: 5px 10px;
+}

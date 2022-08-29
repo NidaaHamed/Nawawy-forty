@@ -1,5 +1,6 @@
-import logo from './logo.svg';
+import logo from './logo-new.png';
 import './App.css';
+import List from './List';
 
 function App() {
   return (
@@ -7,17 +8,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+        الأربعون في مباني الإسلام وقواعد الأحكام المعروفة بـ الأربعون النووية، متن اشتمل على اثنين وأربعين حديثاّ جمعها يحيى بن شرف النووي المتوفى 676 هـ. 
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <List/>
     </div>
   );
 }
